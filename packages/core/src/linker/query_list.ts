@@ -25,7 +25,7 @@ function symbolIterator<T>(this: QueryList<T>): Iterator<T> {
  * The type of object that {@link ViewChildren}, {@link ContentChildren}, and {@link QueryList}
  * provide.
  *
- * {@link ViewChildren}、{@link ContentChildren} 和 {@link QueryList} 所提供对象的类型。
+ * {@link ViewChildren}, {@link ContentChildren} 和 {@link QueryList} 所提供对象的类型。
  *
  * Implements an iterable interface, therefore it can be used in both ES6
  * javascript `for (var i of items)` loops as well as in Angular templates with
